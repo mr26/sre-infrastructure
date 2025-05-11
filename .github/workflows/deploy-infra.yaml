@@ -33,7 +33,7 @@ jobs:
 
       # Step 4: Initialize Terraform
       - name: Terraform Init
-        run: cd terraform init
+        run: terraform init
         working-directory: deploy
 
       # Step 5: Validate the Terraform configuration (optional but recommended)
